@@ -1,0 +1,33 @@
+
+.card {
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    max-width: 245px;
+    min-height: 270px;
+
+
+    img {
+        width: 150px;
+        height: 130px;
+    }
+}
+
+
+.info {
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info_item {
+    font-family: var(--font-family-main);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
